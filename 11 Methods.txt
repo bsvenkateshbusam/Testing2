@@ -1,0 +1,15 @@
+
+
+Java Methods
+-Static methods      (ClassName.methodname();)
+-Non Static Methods  (Obj.methodname();)
+
+
+1. set of driver commands in @Test
+2. develop methods ---> call those methods in @Test
+3. Methods parameterization (Non Static Methods , Static )
+    1. Delcare Global Variables
+    2. Pass Global Variable to the main Test methods
+    3. Create local variables at method level and replace sendKeys with local variables
+
+---------------------------------------------

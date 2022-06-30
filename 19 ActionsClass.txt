@@ -1,0 +1,28 @@
+Actions Class:
+
+1) Double Click:
+
+Actions actions = new Actions(driver);
+actions.doubleClick(CopyText).perform();	
+	
+
+2) Mouse Hover:   
+Actions actions = new Actions(driver);
+actions.moveToElement(Admin).
+moveToElement(User_Management).
+moveToElement(Users).click().build().perform();
+	
+3) Right Click: 
+
+WebElement RButton=findElement(By.xpath("//span[text()='right click me']"));
+Actions actions = new Actions(driver);
+actions.contextClick(RButton).perform();		
+	
+
+4) Drag and Drop:
+
+WebElement Sourcebutton =findElement(by.xpath("//*[@id="draggable"]/p"));
+WebElement TargetButton=findElement(by.xpath("//*[@id="droppable"]/p"));
+
+Actions actions = new Actions(driver);
+actions.dragAndDrop(Source_Drag_Button, Target_Drop_Button).perform();	

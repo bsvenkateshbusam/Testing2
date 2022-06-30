@@ -1,0 +1,136 @@
+1. Static  method
+2. Non Static method
+3. Abstract method 
+
+Hiding the back ground details or implementation details of a particular object is known as Abstraction .
+
+We can able to achive abstraction in java  by using
+
+1. Abstract class
+2. Interface 
+
+---------------------
+3 types of classes
+
+1.  Concrete class or standard class
+2 . Abstract class   ( Abstract method )
+3.  Interface  (Abstract method )
+
+-----------------------------------------------
+
+WebDriver driver= new ChromeDriver();
+driver.get("https://sadasd.com");
+
+
+
+
+WebDriver;
+
+class ChromeDriver implements WebDriver
+{
+ 
+
+   
+
+}
+
+
+class FireFox implements WebDriver
+{
+
+
+
+}
+
+
+class Edge implements WebDriver
+{
+
+
+}
+
+---------------------------------------------------
+
+
+Policy p1= new Vehivle();
+p1.cobntactInformation();
+p1.coverage();
+p1.plantype();
+
+
+Interface policy
+{
+
+contactInformation();
+coverage();
+PlanType();
+
+}
+
+
+class Healthcare implements Policy
+{
+
+
+}
+
+class Vehicle implements Policy
+{
+
+
+
+}
+
+class Commercial implements Policy
+{
+
+
+}
+
+--------------------------------------------------------
+
+
+
+
+Interface Bank
+{
+
+Homeloan();
+personalloan();
+
+
+}
+
+
+class SBIBank implements Bank
+{
+
+
+
+}
+
+class HFDCBank implements Bank
+{
+
+
+
+}
+
+
+Bank b1=new SBIBank();
+b1.Homeloan(7);
+
+Bank b1=new HDFCBank();
+b1.Homeloan(10);
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

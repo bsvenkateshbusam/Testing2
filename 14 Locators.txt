@@ -1,0 +1,10 @@
+8 Locators in selenium
+
+1 . id
+2. cssSelector
+3. xpath
+4 . name
+5. linkText--------------------> static Hyperlinks 
+6. partial linktext------------->Dynamic Hyperlinks
+7. className
+8. TagName
